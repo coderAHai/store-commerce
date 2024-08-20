@@ -1,0 +1,11 @@
+{
+  "eslint.autoFixOnSave": true,
+  "editor.formatOnSave": true,
+  "prettier.eslintIntegration": true,
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  }
+}

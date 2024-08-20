@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-body text-base font-normal text-dark bg-white;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  ul {
+    @apply list-none;
+  }
+
+  img {
+    @apply max-w-full align-middle;
+  }
+
+  strong {
+    @apply font-extrabold;
+  }
+
+  table {
+    @apply border-collapse border-spacing-0;
+  }
+
+  input::placeholder {
+    font: inherit;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-title;
+  }
+
+  h1 {
+    font-size: calc(1.3rem + 1vw);
+    @apply font-extrabold leading-4;
+  }
+
+  h2 {
+    @apply text-[2.5rem];
+  }
+
+  h3 {
+    @apply text-[1.2rem] font-bold;
+  }
+
+  h4 {
+    @apply text-base font-semibold;
+  }
+
+  .column {
+    @apply -mx-4;
+  }
+
+  .column .row {
+    @apply py-0 px-4;
+  }
+
+  .flexwrap {
+    @apply flex flex-wrap;
+  }
+
+  .flexcenter {
+    @apply flex justify-center items-center;
+  }
+
+  .flexitem {
+    @apply flex items-center;
+  }
+
+  .flexcol {
+    @apply flex flex-col gap-4;
+  }
+
+  .primary-button {
+    @apply bg-primary text-white transition-all duration-500;
+  }
+
+  .primary-button:hover {
+    @apply bg-dark;
+  }
+
+  .secondary-button {
+    @apply bg-secondary-dark text-white transition-all duration-500;
+  }
+
+  .secondary-button:hover {
+    @apply bg-light-bg text-secondary-dark;
+  }
+
+  .light-button {
+    @apply bg-light-bg text-secondary-dark transition-all duration-500;
+  }
+
+  .light-button:hover {
+    @apply bg-secondary-dark text-white;
+  }
+}
