@@ -1,7 +1,7 @@
 <template>
   <CommonContainer>
     <div
-      class="fixed lg:relative bg-white z-50 top-0 flex items-center w-full justify-between border-b border-border px-2 py-4 lg:p-0"
+      class="fixed lg:relative bg-white z-50 lg:z-auto top-0 flex items-center w-full justify-between border-b border-border px-2 py-4 lg:p-0"
     >
       <HeaderNavLeft />
       <HeaderNavRight />
